@@ -9,7 +9,7 @@ where the government and each individual is put into a tradeoff situation where 
 ## Code
 The coding has been done for simulation of the first objective function as proposed in the Report. Dynamic programming has been used across states. A window frame  
 also has been used (Time upto which function should be optimized). At each time step, optimal control parameters are computed. Following are the preliminary results  for 54 epochs.  
-S = Susceptible, I = Infected, A = Asymptomatic, R = Recovered. The code takes about 4-5 hours with the current parameters, since the state space is relatively huge.  
+S = Susceptible, I = Infected, A = Asymptomatic, R = Recovered. There are 2 communities involved hence they are indexed by 1 or 2 to represent the state respectively for each community. The code takes about 4-5 hours with the current parameters, since the state space is relatively huge.  
 
 ## Results
 
